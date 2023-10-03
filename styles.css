@@ -81,8 +81,19 @@ article{
  background-color: #E2E8F0;
  padding: 10px
  text-decoration: none;
- color: #4299E1;
+ color: #E2E8F0;
+ font-family: Georgia,'Times New Roman', Times, serif;
 }
 
+.archive-selection {
+ color: #48BB78;
+}
 
+.social-media selection{
+ color: #48BB78;
+}
+
+a:active {
+  color: #4299E1;
+}
 
