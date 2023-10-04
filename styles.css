@@ -4,18 +4,7 @@ grid-template-columns: 80% 20%;
 grid-template-rows: 2;
 grid-gap: 20px;
 margin:0 auto;
-}
-
-h1 {
- margin-top: 10px;
- font-size: 36px;
- font-family: Georgia, “Times New Roman”, Times, serif;
-}
-
-p {
- font size: 18px;
- color: #2D3748;
- font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+width:1200px;
 }
 
 .my-header {
@@ -33,19 +22,24 @@ align-items: center;
  width: 120px;
  height: 120px;
  border-radius: 50%;
+} 
+
+.blog-title{
+ font size: 36px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tagline{
+ font size: 18px;
+ color: #2D3748;
+ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
 }
 
 .my-footer {
  grid-column: 1/span2;
  background-colour: #2C5282;
  color: #FFFFFF;
- text-align: bottom;
  padding: 10px;
-}
-
-h3{
- color: #48BB78;
- font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .my-main{
@@ -86,7 +80,7 @@ article{
  background-color: #E2E8F0;
  padding: 10px
  text-decoration: none;
- color: #E2E8F0;
+ color: #000000;
  font-family: Georgia,'Times New Roman', Times, serif;
  display: flex;
  flex-direction: column;
@@ -98,6 +92,7 @@ article{
  display: flex;
  flex-direction: column;
  gap: 20px;
+ font-family:Georgia,'Times New Roman', Times, serif;
 }
 
 .social-media{
@@ -105,9 +100,15 @@ article{
 display: flex;
  flex-direction: column;
  gap: 20px;
+ font-family:Georgia,'Times New Roman', Times, serif;
 }
 
-a:active {
+.links{
   color: #4299E1;
+ text-decoration: none;
+}
+
+.dateAuth1{
+ color: #718096
 }
 
