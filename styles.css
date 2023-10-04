@@ -2,8 +2,8 @@
 display:grid;
 grid-template-columns: 80% 20%;
 grid-template-rows: 2;
-gap: 20px;
-background-colour: #FFFFFF;
+grid-gap: 20px;
+margin:0 auto;
 }
 
 h1 {
@@ -12,54 +12,59 @@ h1 {
  font-family: Georgia, “Times New Roman”, Times, serif;
 }
 
-body {
- font size: 18px and have a text
- color: #2D3748 
+p {
+ font size: 18px;
+ color: #2D3748;
  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
 }
 
-.my header {
+.my-header {
  grid-column: 1/span2;
  background-colour: #63B3ED;
  color: #FFFFFF;
  text-align: center;
  padding: 20px;
-}
-
-.header-content {
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
 .profile-image {
- width: 48px;
- height: 48px;
+ width: 120px;
+ height: 120px;
  border-radius: 50%;
 }
 
-.my footer {
-grid-column: 1/span2;
+.my-footer {
+ grid-column: 1/span2;
  background-colour: #2C5282;
  color: #FFFFFF;
- text-align: center;
+ text-align: bottom;
  padding: 10px;
 }
 
 h3{
- color: #48BB78
+ color: #48BB78;
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.my main{
+.my-main{
  grid-column: 1/ span 2;
  grid-row: 2;
  display: flex;
  flex-direction: column;
  gap: 20px;
+ max-width: 80%
 }
 
-.blog-image{
+.image{
+ float: left;
+ margin: 10px;
+ width: 400px;
+ height: 300px;
+}
+
+.image1{
  float: right;
  margin: 10px;
  width: 400px;
@@ -72,27 +77,34 @@ article{
  background-color: #fff;
 } 
 
-.my aside{
+.my-aside{
  grid-column: 2;
  grid-row: 2;
- background-color: #f3f4f6;
- padding: 20px;
 }
 
-.about-selection{
+.about{
  background-color: #E2E8F0;
  padding: 10px
  text-decoration: none;
  color: #E2E8F0;
  font-family: Georgia,'Times New Roman', Times, serif;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
 }
 
-.archive-selection {
+.archive{
  color: #48BB78;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
 }
 
-.social-media selection{
+.social-media{
  color: #48BB78;
+display: flex;
+ flex-direction: column;
+ gap: 20px;
 }
 
 a:active {
