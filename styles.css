@@ -18,7 +18,7 @@ body {
  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
 }
 
-header {
+.my header {
  grid-column: 1/span2;
  background-colour: #63B3ED;
  color: #FFFFFF;
@@ -38,7 +38,7 @@ align-items: center;
  border-radius: 50%;
 }
 
-footer {
+.my footer {
 grid-column: 1/span2;
  background-colour: #2C5282;
  color: #FFFFFF;
@@ -51,8 +51,9 @@ h3{
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-main{
- grid-column: 1;
+.my main{
+ grid-column: 1/ span 2;
+ grid-row: 2;
  display: flex;
  flex-direction: column;
  gap: 20px;
@@ -71,8 +72,9 @@ article{
  background-color: #fff;
 } 
 
-.aside{
+.my aside{
  grid-column: 2;
+ grid-row: 2;
  background-color: #f3f4f6;
  padding: 20px;
 }
