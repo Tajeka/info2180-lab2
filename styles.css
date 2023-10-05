@@ -9,7 +9,7 @@ width:1200px;
 
 .my-header {
  grid-column: 1/span2;
- background-colour: #63B3ED;
+ background-color: #63B3ED;
  color: #FFFFFF;
  text-align: center;
  padding: 20px;
@@ -75,7 +75,7 @@ article{
 
 .about{
  background-color: #E2E8F0;
- padding: 20px
+ padding: 20px;
  text-decoration: none;
  color: #000000;
  font-family: Georgia,'Times New Roman', Times, serif;
@@ -111,8 +111,9 @@ display: flex;
 
 .my-footer {
  grid-column: 1/span2;
- background-colour: #2C5282;
+ background-color: #2C5282;
  color: #FFFFFF;
  padding: 10px;
 }
+
 
